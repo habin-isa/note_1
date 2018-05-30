@@ -8,6 +8,9 @@
         throw new Error("Not a string");
     }};
 
+
+    //////
+
     function testStringValue() {
       if (text.constructor !== 'string') {
         throw new Error("Text entered is not a string");

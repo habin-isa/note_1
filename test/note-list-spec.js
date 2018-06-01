@@ -13,3 +13,8 @@ describe('new instance of notes array')
   noteList.add('Item two');
   noteList.add('Item three');
   assert.toBeEqual(noteList.noteArray, ['Item one', 'Item two', 'Item three']);
+
+  it('returns all the note models stored in the array');
+  //noteArray currently contains: ['Item one', 'Item two', 'Item three']
+  noteList.displayArray
+  assert.toBeEqual(noteList.noteArray, ['Item one', 'Item two', 'Item three']);

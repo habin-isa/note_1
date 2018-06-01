@@ -7,7 +7,3 @@ describe('new instance of a note')
   it('stores new text in text property of note');
   //this.displayText to return text
   assert.toBeEqual(note.displayText(), 'Sam mr bracket');
-
-  it('takes an empty array of notes upon instantiation');
-  var note = new Note();
-  assert.toBeEqual(note.notes, []);
